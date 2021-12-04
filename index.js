@@ -2,7 +2,7 @@ const express = require('express');
 const port = process.env.PORT || 5000;
 const app = express();
 
-app.get('/add/:a/:b', (req, res) => {
+app.get('/jog/:a/:b', (req, res) => {
 
     // concat string
     var a = parseInt(req.params.a);
